@@ -148,6 +148,12 @@
       },
       phoneNumber: {
         get () {
+          if (this.value.charAt(0) === '+') {
+            const parsedPhone = parsePhoneNumberFromString(this.value)
+            if(parsedPhone !== undefined) {
+              this.emitValues({countryCode: parsedPhone.country, phoneNumber: parsedPhone.nationalNumber})
+            }
+          }
           return this.value
         },
         set (newPhone) {

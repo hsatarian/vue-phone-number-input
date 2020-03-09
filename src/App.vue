@@ -214,7 +214,7 @@
     },
     data() {
       return {
-        phoneNumber: null,
+        phoneNumber: '+6785912345',
         phoneNumber2: null,
         phoneNumber3: '0665656565',
         defaultCountry: 'FR',

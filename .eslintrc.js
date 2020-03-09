@@ -13,6 +13,7 @@ module.exports = {
   ],
 
   rules: {
+    'no-console': 'off',
     'generator-star-spacing': 0,
     'arrow-parens': 0,
     'prefer-const': 2,

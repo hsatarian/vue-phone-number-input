@@ -18,6 +18,7 @@
     "serve:build": "vue-cli-service serve --mode production",
     "test:unit": "vue-cli-service test:unit",
     "test:unit:watch": "vue-cli-service test:unit --watch",
+    "debug": "node --nolazy --inspect-brk=9229",
     "ui": "vue ui"
   },
   "files": [
