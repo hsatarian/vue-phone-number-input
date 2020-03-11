@@ -316,10 +316,10 @@
 
   .vue-phone-number-input {
     .select-country-container {
-      flex: 0 0 120px;
-      width: 120px;
-      min-width: 120px;
-      max-width: 120px;
+      flex: 0 0 100px;
+      width: 100px;
+      min-width: 100px;
+      max-width: 100px;
     }
 
     &.sm .select-country-container {
